@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Metadados -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Título da Página -->
+  <title>Star Wars Characters | By Alexandre Salvini</title>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Ícone da Página -->
+  <link rel="icon" href="./assets/millennium-falcon.png">
+</head>
+<body>
+
+  <!-- Cabeçalho (Header) -->
+  <header>
+    <!-- Logo -->
+    <a href="./index.html">
+      <div class="logo">
+        <img class="logo-img" alt="logo" src="./assets/star-wars-logo.png"/></div>
+        <nav>
+          <ul>
+              <a href="./index.html">
+                  <li>Personagens</li>
+              </a>
+              <a href="./Planetas.html">
+                  <li>Planetas</li>
+              </a>
+              <a href="./naves.html">
+                  <li>Naves</li>
+              </a>
+              <a href="./filmes.html">
+                <li>Veiculos</li>
+            </a>
+            <a href="./filmes.html">
+              <li>Filmes</li>
+          </a>
+              </ul>
+      </nav>
+    </a>
+    
+    <!-- Redes Sociais -->
+    <div class="social-media">
+      <a href="https://instagram.com/alexandre_salvini?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/salvini73761?mibextid=2JQ9oc" target="_blank">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>    
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <div class="main-container">
+    <!-- Título Principal -->
+    <h2>Conheca todos os personagens de Star Wars em um so lugar</h2>
+    
+    <!-- Conteúdo Dinâmico -->
+    <div class="main-content" id="main-content"></div>
+
+    <div class="modal" id="modal" onclick="hiedModal()">
+    <div class="modal-content" id="modal-content"></div>
+  </div>
+    
+    <!-- Botões de Navegação -->
+    <div class="buttons">
+      <button id="back-button" disabled>Anterior</button>
+      <button id="next-button" disabled>Próxima</button>
+    </div>
+  </div>
+    
+<!-- Rodapé (Footer) -->
+<footer>
+  <!-- Logo no Rodapé -->
+  <img style="object-fit: contain;" id="logo" src="./assets/Dueling_lightsabers.svg.png" />
+  <!-- Direitos Autorais e Desenvolvedor -->
+  <span><b>Todos os direitos reservados ©</b></span>
+  <span><b>Desenvolvido por Alexandre Salvini</b></span>
+  <nav class="footer-navigation">
+    <ul class="footer-list">
+      <a href="./index.html">
+        <li>Personagens</li>
+      </a>
+      <a href="./Planetas.html">
+        <li>Planetas</li>
+      </a>
+      <a href="./naves.html">
+        <li>Naves</li>
+      </a>
+      <a href="./veiculos.html">
+        <li>Veiculos</li>
+    </a>
+    <a href="./filmes.html">
+      <li>Filmes</li>
+  </a>
+    </ul>
+  </nav>
+</footer>
+
+<!-- Scripts -->
+<!-- Biblioteca de Ícones -->
+<script src="https://kit.fontawesome.com/7f4cf6788a.js" crossorigin="anonymous"></script>
+<!-- Script Personalizado -->
+<script src="./script.js"></script>
+</body>
+</html>
